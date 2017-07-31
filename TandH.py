@@ -2,6 +2,11 @@ import sys
 import requests
 import timer
 import threading
+import uploadYeelink
+import dataprocess
+import ReqT
+
+
 
 temperature_c = 'https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d'
 humanity = 'https://us.wio.seeed.io/v1/node/GroveTempHumD0/humidity?access_token=760369546a5f1ff89282dfed8eac9d7d'
