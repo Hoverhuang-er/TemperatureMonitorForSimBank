@@ -15,12 +15,12 @@ dust = 'https://us.wio.seeed.io/v1/node/GroveLuminanceA0/luminance?access_token=
 
 r = requests.get()
 #requests.post("http://maker.ifttt.com/trigger/HOGEHOGE/with/key/FUGAFUGA, json={"value1": "Hello, IFTTT!"})
-print r.content
+print ("r.content"
 
     for requests.get('https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d')
     in range (10)
     for requests.get(humanity_get_api) in range (10)
-    for get_urls(dust_get_api) in range (10)
+    for get_urls(dust_get_api) in range (10))
 
 def get_url(temperature_c_get_api):
     r = requests.get(temperature_c_get_api)
@@ -51,7 +51,7 @@ def post_url(sleep_time_post_api):
     "Okay"
     elif status_code: 400
     print
-    "error"
+    ("error")
 
 
 def main(argv1):
