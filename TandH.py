@@ -7,6 +7,7 @@ import ReqT
 import time
 import wx
 import json
+from Quene import Quene
 from pytimer import Timer
 @Timer(average=False)
 
@@ -106,4 +107,5 @@ with open ('dust ()','w') as outfile:
 with open('humidity ()','w')as outfile:
     json.dump(humanity,outfile)
 
-
+class _timerThread(threading.Thread):
+    
