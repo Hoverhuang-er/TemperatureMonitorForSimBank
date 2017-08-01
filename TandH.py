@@ -1,12 +1,14 @@
 import sys
 import requests
-import timer
 import threading
 import uploadYeelink
 import dataprocess
 import ReqT
+import time
+import wx
 import json
-
+from pytimer import Timer
+@Timer(average=False)
 
 
 temperature_c = 'https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d'
@@ -76,7 +78,7 @@ def main(argv3):
     dust_get_api = [dust_get_api]
     elif status == 400:
     url = [dust_get_api]
-
+def main(timer)
 
 for temperature_c_get_api in temperature_c_get_api:
     threading.Thread(target=temperature_c_get_api, argv1=(temperature_c_get_api))，start()
@@ -85,6 +87,7 @@ for humanity_get_api in humanity_get_api:
 for dust_get_api in dust_get_api:
     threading.Thread(target=dust_get_api, argv3=(dust_get_api)), start()
 
+def matmul(a,b,times=180):
 
 
 
