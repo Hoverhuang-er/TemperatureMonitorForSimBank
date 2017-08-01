@@ -5,6 +5,7 @@ import threading
 import uploadYeelink
 import dataprocess
 import ReqT
+import json
 
 
 
@@ -93,4 +94,12 @@ if __name__ == '__main__':
     main(sys,argv[1])
     main(sys,argv[2])
     main(sys.argv[3])
+
+with open ('celsius_degree ()','w') as outfile:
+    json.dump(temperature_c,outfile)
+with open ('dust ()','w') as outfile:
+    json.dump(dust,outfile)
+with open('humidity ()','w')as outfile:
+    json.dump(humanity,outfile)
+    
 
