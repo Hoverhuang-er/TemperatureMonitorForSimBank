@@ -108,4 +108,4 @@ with open('humidity ()','w')as outfile:
     json.dump(humanity,outfile)
 
 class _timerThread(threading.Thread):
-    
+
