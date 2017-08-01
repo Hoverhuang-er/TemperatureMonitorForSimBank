@@ -15,7 +15,7 @@ def main(argv):
     except getopt.GetoptError:
         print('Usage - shutdown.py -h -r --time=<seconds>')
         sys.exit(2)
-	print args
+	print('args')
     for opt, arg in opts:
         if opt == '-h':
             power = True
