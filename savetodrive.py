@@ -40,7 +40,7 @@ class DriveSaver:
     def listFiles(self):
         file_list = self.drive.ListFile({'q': "'root' in parents and trashed=false"}).GetList()
         for file1 in file_list:
-            print 'title: %s, id: %s' % (file1['title'], file1['id'])
+            print ('title: %s, id: %s' % (file1['title'], file1['id']))
 
 def main():
     d = DriveSaver()
