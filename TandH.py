@@ -14,6 +14,7 @@ humanity = 'https://us.wio.seeed.io/v1/node/GroveTempHumD0/humidity?access_token
 dust = 'https://us.wio.seeed.io/v1/node/GroveLuminanceA0/luminance?access_token=760369546a5f1ff89282dfed8eac9d7d'
 
 r = requests.get()
+#requests.post("http://maker.ifttt.com/trigger/HOGEHOGE/with/key/FUGAFUGA, json={"value1": "Hello, IFTTT!"})
 print r.content
 
     for requests.get('https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d')
@@ -101,5 +102,5 @@ with open ('dust ()','w') as outfile:
     json.dump(dust,outfile)
 with open('humidity ()','w')as outfile:
     json.dump(humanity,outfile)
-    
+
 
