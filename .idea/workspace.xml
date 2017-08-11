@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e62e35d-f1a3-42b7-9578-3d4ddc339d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/WebControllerNode/init.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/WebControllerNode/main.lua" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/WebControllerNode/script1.lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/WebControllerNode/httpServer.lua" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relayController.lua" pinned="false" current-in-tab="true">
+      <file leaf-file-name="relayController.lua" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="376">
               <caret line="43" column="97" lean-forward="false" selection-start-line="43" selection-start-column="97" selection-end-line="43" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="httpServer.lua" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/httpServer.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="193" column="6" lean-forward="true" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -80,6 +88,7 @@
         <option value="$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp" />
         <option value="$PROJECT_DIR$/NodeMCU/RelayDrive/RelayDrive.h" />
         <option value="$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua" />
+        <option value="$PROJECT_DIR$/NodeMCU/WebControllerNode/httpServer.lua" />
       </list>
     </option>
   </component>
@@ -296,7 +305,7 @@
       <option name="presentableId" value="Default" />
       <updated>1501488890198</updated>
       <workItem from="1502420906837" duration="6565000" />
-      <workItem from="1502443441866" duration="43000" />
+      <workItem from="1502443441866" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Add new code file">
       <created>1501492803904</created>
@@ -396,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502430747977</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add new code file">
+      <created>1502443492378</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1502443492378</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6608000" />
+    <option name="totallyTimeSpent" value="6879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,8 +721,16 @@
     <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/doubleswitch.lua" />
     <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="376">
           <caret line="43" column="97" lean-forward="false" selection-start-line="43" selection-start-column="97" selection-end-line="43" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/httpServer.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="193" column="6" lean-forward="true" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
           <folding />
         </state>
       </provider>
