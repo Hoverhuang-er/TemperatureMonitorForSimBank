@@ -38,8 +38,8 @@
       <file leaf-file-name="relayController.lua" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-74">
-              <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="252">
+              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -160,9 +160,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="GO_FMT" value="false" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Lua Script.relayController.lua">
+  <component name="RunManager" selected="Lua Script.relayController.lua (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,6 +250,17 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="relayController.lua (1)" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="ALTERNATE_INTERPRETER" value="false" />
+      <envs />
+      <module name="TemperatureMonitorForSimBank" />
+      <option name="SCRIPT_NAME" value="NodeMCU/WebControllerNode/relayController.lua" />
+      <option name="PARAMETERS" value="" />
+    </configuration>
     <configuration name="relayController.lua" type="#com.sylvanaar.idea.Lua.run.LuaConfigurationType" factoryName="Lua Script" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="INTERPRETER_PATH" value="" />
@@ -260,9 +272,14 @@
       <option name="SCRIPT_NAME" value="NodeMCU/WebControllerNode/relayController.lua" />
       <option name="PARAMETERS" value="" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Lua Script.relayController.lua" />
+      <item index="1" class="java.lang.String" itemvalue="Lua Script.relayController.lua (1)" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Lua Script.relayController.lua" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Lua Script.relayController.lua (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Lua Script.relayController.lua" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +293,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501488890198</updated>
-      <workItem from="1502420906837" duration="2288000" />
+      <workItem from="1502420906837" duration="5961000" />
     </task>
     <task id="LOCAL-00001" summary="Add new code file">
       <created>1501492803904</created>
@@ -362,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502421718182</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add new code file">
+      <created>1502423612021</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1502423612021</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2288000" />
+    <option name="totallyTimeSpent" value="5961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -737,8 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="252">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>

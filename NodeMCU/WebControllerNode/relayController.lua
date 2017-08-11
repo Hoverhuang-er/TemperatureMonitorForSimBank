@@ -1,6 +1,6 @@
 -- Wemos Relay.lua
--- John Longworth December 2016
--- For use with WeMos single relay shield
+-- HUANGSHUHAO-11-AUG-2017
+-- For using SIMBANK relay control module
 
 local SSID = "cts retail"      -- Enter your SSID
 local pwd  = "changi123!"      -- Enter your password
@@ -13,6 +13,14 @@ ip = wifi.sta.getip()
 print("Key this IP address "..ip.." into a browser")
 
 local pin = 1
+--local pin = 2
+--local pin = 3
+--  local pin = 4
+--  local pin = 5
+--  local pin = 6
+--  local pin = 7
+--  local pin = 8
+--  local pin = 9
 gpio.mode(pin, gpio.OUTPUT)
 
 srv=net.createServer(net.TCP)
