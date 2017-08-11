@@ -21,7 +21,19 @@ local pin6 = 6
 local pin7 = 7
 local pin8 = 8
 local pin9 = 9
+
+
 gpio.mode(pin, gpio.OUTPUT)
+--  gpio.mode(pin1, gpio.OUTPUT)
+--  gpio.mode(pin2, gpio.OUTPUT)
+--  gpio.mode(pin3, gpio.OUTPUT)
+--  gpio.mode(pin4, gpio.OUTPUT)
+--  gpio.mode(pin5, gpio.OUTPUT)
+--  gpio.mode(pin6, gpio.OUTPUT)
+--  gpio.mode(pin7, gpio.OUTPUT)
+--  gpio.mode(pin8, gpio.OUTPUT)
+--  gpio.mode(pin9, gpio.OUTPUT)
+
 
 srv=net.createServer(net.TCP)
 srv:listen(80,function(conn)
