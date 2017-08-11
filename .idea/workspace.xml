@@ -10,8 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e62e35d-f1a3-42b7-9578-3d4ddc339d61" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/RelayDrive/RelayDrive.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/ChatbotCTSTandH.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/bot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/emoji.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/image2text.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/myredispool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/recomend.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/supervisor.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/tools.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/watermark.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py2Edition/wxbot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CBTestChatBot/py3edition/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/TestIno/nodemcu__.ino" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/TestIno/sketch_aug10a.ino" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,18 +46,28 @@
       <file leaf-file-name="Relay.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="792">
               <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelayDrive.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="relayController.lua" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelayDrive.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/RelayDrive.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,11 +104,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1612" />
-    <option name="height" value="865" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -132,6 +158,18 @@
               <item name="NodeMCU" type="462c0819:PsiDirectoryNode" />
               <item name="RelayDrive" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TemperatureMonitorForSimBank" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="TemperatureMonitorForSimBank" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeMCU" type="462c0819:PsiDirectoryNode" />
+              <item name="TestIno" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TemperatureMonitorForSimBank" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="TemperatureMonitorForSimBank" type="462c0819:PsiDirectoryNode" />
+              <item name="NodeMCU" type="462c0819:PsiDirectoryNode" />
+              <item name="WebControllerNode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -141,6 +179,15 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="GO_FMT" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\TemperatureMonitorForSimBank\NodeMCU\TestIno" />
+      <recent name="D:\Project\TemperatureMonitorForSimBank\NodeMCU\WebControllerNode" />
+      <recent name="D:\Project\TemperatureMonitorForSimBank\CBTestChatBot\py2Edition" />
+      <recent name="D:\Project\TemperatureMonitorForSimBank\CBTestChatBot" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,7 +277,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501488890198</updated>
-      <workItem from="1502420906837" duration="170000" />
+      <workItem from="1502420906837" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="Add new code file">
       <created>1501492803904</created>
@@ -302,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501587579932</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add new code file">
+      <created>1502421087357</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1502421087357</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170000" />
+    <option name="totallyTimeSpent" value="779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,10 +372,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20041753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -627,18 +681,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp">
+    <entry file="file://$PROJECT_DIR$/CBTestChatBot/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CBTestChatBot/py2Edition/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/RelayDrive.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="30" lean-forward="true" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/TestIno/sketch_aug07b.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
