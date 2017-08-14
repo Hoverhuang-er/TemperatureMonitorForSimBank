@@ -1,10 +1,10 @@
 --modify device and input info
 local DEVICEID = "112"
-local APIKEY = "c88036f9c"
+local APIKEY = "1q2w3e4r5t6y7u8i"
 --modify end
 --connect bigiot
-local host = host or "www.bigiot.net"
-local port = port or 8181
+local host = host or "104.128.94.136"
+local port = port or 1194
 cu = net.createConnection(net.TCP)
 cu:connect(port, host)
 --connect end

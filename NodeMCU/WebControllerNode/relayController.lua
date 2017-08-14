@@ -121,7 +121,7 @@ srv:listen(80,function(conn)
         local _on,_off = "",""
         if(_GET.pin9 == "ON1")then
             gpio.write(pin9, gpio.HIGH);
-            
+
         elseif(_GET.pin9 == "OFF1")then
             gpio.write(pin9, gpio.LOW);
         end
