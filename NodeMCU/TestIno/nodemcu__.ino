@@ -59,3 +59,11 @@ void loop() {
   digitalWrite(7,HIGH);
   delay(35000);
 }
+
+
+{
+  /* void Gr:
+    FivePinRelay(int pin7);
+    bool write_onoff(int onoff);
+    bool read_onoff_status(int *onoff);
+  *?

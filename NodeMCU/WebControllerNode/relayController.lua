@@ -2,6 +2,11 @@
 -- HUANGSHUHAO-11-AUG-2017
 -- For using SIMBANK relay control module
 
+-- import httpServer to control
+
+dofile('httpServer.lua')
+
+
 local SSID = "dlink-BC40"      -- Enter your SSID
 local pwd  = "ueqid58778"      -- Enter your password
 
@@ -116,6 +121,7 @@ srv:listen(80,function(conn)
         local _on,_off = "",""
         if(_GET.pin9 == "ON1")then
             gpio.write(pin9, gpio.HIGH);
+            
         elseif(_GET.pin9 == "OFF1")then
             gpio.write(pin9, gpio.LOW);
         end

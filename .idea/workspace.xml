@@ -11,6 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e62e35d-f1a3-42b7-9578-3d4ddc339d61" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeMCU/TestIno/nodemcu__.ino" afterPath="$PROJECT_DIR$/NodeMCU/TestIno/nodemcu__.ino" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua" afterPath="$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,21 +26,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Relay.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Relay.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+            <state relative-caret-position="560">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="relayController.lua" pinned="false" current-in-tab="false">
+      <file leaf-file-name="relayController.lua" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="484">
+              <caret line="123" column="12" lean-forward="false" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script1.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/script1.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="28" column="76" lean-forward="true" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nodemcu__.ino" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeMCU/TestIno/nodemcu__.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sketch_aug10a.ino" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NodeMCU/TestIno/sketch_aug10a.ino">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-702">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,6 +129,7 @@
         <option value="$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp" />
         <option value="$PROJECT_DIR$/NodeMCU/RelayDrive/RelayDrive.h" />
         <option value="$PROJECT_DIR$/NodeMCU/WebControllerNode/httpServer.lua" />
+        <option value="$PROJECT_DIR$/NodeMCU/TestIno/nodemcu__.ino" />
         <option value="$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua" />
       </list>
     </option>
@@ -149,6 +182,11 @@
             <path>
               <item name="TemperatureMonitorForSimBank" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="TemperatureMonitorForSimBank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TemperatureMonitorForSimBank" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="TemperatureMonitorForSimBank" type="462c0819:PsiDirectoryNode" />
+              <item name="CBTestChatBot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TemperatureMonitorForSimBank" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
@@ -315,7 +353,7 @@
       <updated>1501488890198</updated>
       <workItem from="1502420906837" duration="6565000" />
       <workItem from="1502443441866" duration="3879000" />
-      <workItem from="1502677402582" duration="810000" />
+      <workItem from="1502677402582" duration="6530000" />
     </task>
     <task id="LOCAL-00001" summary="Add new code file">
       <created>1501492803904</created>
@@ -450,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502472594833</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add new code file">
+      <created>1502679122559</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1502679122572</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11254000" />
+    <option name="totallyTimeSpent" value="16974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,14 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/RelayDrive.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -805,10 +842,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/script1.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="76" lean-forward="true" selection-start-line="28" selection-start-column="76" selection-end-line="28" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NodeMCU/RelayDrive/Relay.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
-          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="560">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/TestIno/nodemcu__.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/TestIno/sketch_aug10a.ino">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeMCU/WebControllerNode/relayController.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="123" column="12" lean-forward="false" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="12" />
           <folding />
         </state>
       </provider>
