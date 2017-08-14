@@ -22,7 +22,7 @@ local res.err = cache.key('"')
 
 count = 0
 for _ in pairs (res) do
-    count = count + 1
+    count = cou nt + 1
 end
 ngx.say(count)
 local.ok, err = cache:close()
