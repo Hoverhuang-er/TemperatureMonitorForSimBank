@@ -12,15 +12,15 @@ from pytimer import Timer
 @Timer(average=False)
 
 
-temperature_c = 'https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d'
-humanity = 'https://us.wio.seeed.io/v1/node/GroveTempHumD0/humidity?access_token=760369546a5f1ff89282dfed8eac9d7d'
-dust = 'https://us.wio.seeed.io/v1/node/GroveLuminanceA0/luminance?access_token=760369546a5f1ff89282dfed8eac9d7d'
+temperature_c = 'https://52.221.189.109/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d'
+humanity = 'https://52.221.189.109/v1/node/GroveTempHumD0/humidity?access_token=760369546a5f1ff89282dfed8eac9d7d'
+dust = 'https://52.221.189.109/v1/node/GroveLuminanceA0/luminance?access_token=760369546a5f1ff89282dfed8eac9d7d'
 
 r = requests.get()
 #requests.post("http://maker.ifttt.com/trigger/HOGEHOGE/with/key/FUGAFUGA, json={"value1": "Hello, IFTTT!"})
 print ("r.content"
 
-    for requests.get('https://us.wio.seeed.io/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d')
+    for requests.get('https://52.221.189.109/v1/node/GroveTempHumD0/temperature?access_token=760369546a5f1ff89282dfed8eac9d7d')
     in range (10)
     for requests.get(humanity_get_api) in range (10)
     for get_urls(dust_get_api) in range (10))
