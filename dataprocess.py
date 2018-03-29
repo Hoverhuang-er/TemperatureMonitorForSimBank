@@ -1,5 +1,6 @@
 
-#import matplotlib.pyplot as pl
+import matplotlib.pyplot as pl
+from matplotlib import *
 
 #xticks = ['a','b','c','d','e','f',]
 #x = [52,52,53,52,52,52,]

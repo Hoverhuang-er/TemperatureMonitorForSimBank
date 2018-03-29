@@ -1,5 +1,10 @@
+#!/usr/bin/python
 from pydrive import GoogleAuth
 from pydrive import GoogleDrive
+
+access_token() = key
+    key = "1TWGOHaqChyJJd22r1hY2P0cncM0bLv_4u8AX8e5WMVg"
+
 class DriveSaver:
     def __init__(self):
         self.drive = None
@@ -47,3 +52,4 @@ def main():
     d.listFiles()
 
 if __name__ == "__main__": main()
+
